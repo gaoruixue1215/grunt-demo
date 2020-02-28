@@ -19,7 +19,7 @@
   "homepage": "https://github.com/gaoruixue1215/grunt-demo#readme",
   "devDependencies": {
     "grunt": "^1.0.4",
-    "grunt-htmlhint": "^0.9.13"
+    "grunt-contrib-csslint": "^2.0.0"
   },
   "dependencies": {
     "regular": "^0.1.6"
