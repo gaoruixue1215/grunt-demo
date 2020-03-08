@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/gaoruixue1215/grunt-demo#readme",
   "devDependencies": {
+    "eslint": "^6.8.0",
     "grunt": "^1.0.4",
-    "grunt-contrib-csslint": "^2.0.0"
+    "grunt-eslint": "^22.0.0"
   },
   "dependencies": {
     "regular": "^0.1.6"
