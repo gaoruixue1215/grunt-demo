@@ -1,4 +1,3 @@
-/*global $:true*/
 $(function(){
   //get dom elem
   var $width = $('#width'),
@@ -19,11 +18,13 @@ $(function(){
     var h = Number($height.val());
 
     //calculate
-    var p =roundFractional(2*(w+h),1);
-    var a =roundFractional(w*h,2);
+   /* var p =roundFractional(2*(w+h),1);
+    var a =roundFractional(w*h,2);*/
+
+    var rect = rectangle();
 
     //output
-    $perimeter.val(p);
-    $area.val(a);
+    $perimeter.val(rect.perimeter(w,h));
+    $area.val(rect.area(w,h));
   })
 });
